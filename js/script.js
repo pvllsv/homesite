@@ -1,0 +1,16 @@
+$('.burger').click(
+    function(){
+      $(this).toggleClass('burger--open')
+      $('.header__nav').toggleClass('header__nav--open')
+      $('.toggle').toggleClass('toggle--open')
+      $('body').toggleClass('size')
+    }
+    )
+    $('.toggle').click(
+        function(){
+            $(this).toggleClass('toggle--open')
+            $('.header__nav').toggleClass('header__nav--open')
+            $('.burger').toggleClass('burger--open')
+            $('body').toggleClass('size')
+    }
+  )

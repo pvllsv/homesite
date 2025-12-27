@@ -1,0 +1,39 @@
+@media (max-width: 850px)
+    .header__nav
+        .flex_box
+            flex-direction: column
+        .header__contact
+            margin-top: 20px
+    body .about .about__cards 
+        display: grid
+        grid-template-columns: repeat(1, 1fr)
+@media (max-width: 550px)
+    body .burger
+        display: flex
+    body .header__nav
+        position: fixed
+        width: 50%
+        height: 100vh
+        right: -50%
+        border-radius: 0 0 0 0 
+        transition: 1s
+    .header__list
+        flex-direction: column
+    body .header__item
+        margin-right: 0
+        margin-bottom: 20px
+    body .header__nav--open
+        right: 0%
+    .hero
+        flex-direction: column
+    .header__text
+        margin-bottom: 20px
+    body footer .footer__list
+        flex-direction: column
+    body .footer .footer__item
+        border-right: 0px solid gray
+        margin-bottom: 5px
+
+
+
+
